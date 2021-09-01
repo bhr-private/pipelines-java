@@ -17,6 +17,7 @@ steps:
     jdkUserInputPath: '/usr/lib/jvm/java-11-openjdk-amd64'
 #    jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
+    mavenVersionOption: 'default'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
